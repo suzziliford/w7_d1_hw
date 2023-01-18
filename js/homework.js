@@ -97,3 +97,29 @@ let seq = [];
 ogList.reverse();
 console.log(ogList);
 
+// multiply 
+
+function multiply(a, b){
+    let sum = a * b;
+    return sum;
+  };
+  
+  let a = 9
+  let b = 8
+  let result = multiply(a, b);
+  console.log(result);
+
+//Even or Odd
+
+
+function evenOrOdd(number) { 
+    if (number %2==0) {
+      return true;
+    } else {
+      return false; 
+  }
+  };
+  
+  let figure = evenOrOdd(8)
+  console.log(evenOrOdd)
+  
