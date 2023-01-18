@@ -82,3 +82,18 @@ let str = "geepers creepers";
 str = str.replace(/[aeiouAEIOU]/g,"");
 console.log(str);
 
+// Reversed sequence
+
+// def reverse_seq(n):
+//     seq = []
+//     while n>0:
+//         seq.append(n)
+//         n = n-1
+//     return(seq)
+
+let ogList = [1, 2, 3, 4, 5]
+let seq = [];
+
+ogList.reverse();
+console.log(ogList);
+
